@@ -1,3 +1,12 @@
+---
+layout:     post
+title:      "Clean White Theme for Hugo"
+subtitle:   "How to set up this theme"
+date:       2019-01-09
+author:     "赵化冰"
+image:      "https://img.zhaohuabing.com/post-bg-2015.jpg"
+---
+
 # Clean White Theme for Hugo
 
 CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live [demo site](https://zhaohuabing.com) using this theme.  
@@ -11,33 +20,27 @@ While I created this theme, I followed the Hugo theme best practice and tried to
 ## Screenshots
 
 **Home**
-![screenshot](https://raw.githubusercontent.com/zhaohuabing/hugo-theme-cleanwhite/master/images/fullscreenshot.png)
+![screenshot](/img/fullscreenshot.png)
 
 **Post**
-![screenshot](https://raw.githubusercontent.com/zhaohuabing/hugo-theme-cleanwhite/master/images/post.png)
+![screenshot](/img/post.png)
 
 **Search**
-![screenshot](https://raw.githubusercontent.com/zhaohuabing/hugo-theme-cleanwhite/master/images/sitesearch.png)
+![screenshot](/img/sitesearch.png)
 
 **Disqus**
-![screenshot](https://raw.githubusercontent.com/zhaohuabing/hugo-theme-cleanwhite/master/images/disqus.png)
+![screenshot](/img/disqus.png)
 
 **Wechat Pay & Alipay**
-![screenshot](https://raw.githubusercontent.com/zhaohuabing/hugo-theme-cleanwhite/master/images/rewards.png)
+![screenshot](/img/rewards.png)
 
 ## Quick Start
-
-The simplest way is to start with the example site coming with this theme, then you can play around and add your own stuff.
+Go to the directory where you have your Hugo site and run:
 
 ```
-$ mkdir test
-$ cd test
 $ mkdir themes
 $ cd themes
 $ git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
-$ cp -r hugo-theme-cleanwhite/exampleSite/** ../
-$ cd ..
-$ hugo serve
 ```
 
 If your site is already a git project, you may want to choose to add the cleanwhite theme as a submodule to avoid messing up your existing git repository.
@@ -154,3 +157,4 @@ Thanks for the great jobs of [huxblog Jekyll Theme](https://github.com/Huxpro/hu
 If you find any problems, please feel free to [raise an issue](https://github.com/zhaohuabing/hugo-theme-cleanwhite/issues/new) or create a pull request to fix it. 
 
 If it's helpful for you, I would appreciate it if you could star this repository, thanks!
+
