@@ -1,47 +1,13 @@
+Item name : Forest Time
+Item designer : HTML.Design
+Item published on : http://html.design 
+License : Creative Common 3.0
 
-TITLE: 
-24 News - 100% Fully Responsive Free HTML5 Bootstrap Template
+Thanks for download our template. 
+Its 100% free for personal or commercial usage. 
+Stock photos not included!
 
-AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+If you have any questions please leave a message : hello@html.design 
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
-
-
-CREDITS:
-
-Bootstrap
-http://getbootstrap.com/
-
-jQuery
-http://jquery.com/
-
-Modernizr
-http://modernizr.com/
-
-Google Fonts
-https://www.google.com/fonts/
-
-Font Awesome
-http://fontawesome.io
-
-animate.css
-http://daneden.me/animate
-
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Owl Carousel
-http://www.owlcarousel.owlgraphic.com/
-
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
-
-Google Maps
-https://maps.google.com
-
-Demo Images:
-http://unsplash.com
-
+Thanks.
+HTML.Design
