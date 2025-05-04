@@ -12,7 +12,7 @@
   "paths": {
     "/pages": {
       "post": {
-        "operationId": "saveChatToNotion",
+        "operationId": "createNotionPage",
         "summary": "Lưu nội dung cuộc trò chuyện vào Notion",
         "parameters": [
           {
