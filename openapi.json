@@ -1,0 +1,122 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Notion Logger",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.notion.com/v1"
+    }
+  ],
+  "paths": {
+    "/pages": {
+      "post": {
+        "operationId": "saveChatToNotion",
+        "summary": "Lưu nội dung cuộc trò chuyện vào Notion",
+        "parameters": [
+          {
+            "name": "Notion-Version",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "2022-06-28"
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "application/json"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "parent": {
+                    "type": "object",
+                    "properties": {
+                      "database_id": {
+                        "type": "string",
+                        "example": "1e9c497e0bb58083bf04dcd6d12f4a82"
+                      }
+                    },
+                    "required": ["database_id"]
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "Title": {
+                        "type": "object",
+                        "properties": {
+                          "title": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "text": {
+                                  "type": "object",
+                                  "properties": {
+                                    "content": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": ["content"]
+                                }
+                              },
+                              "required": ["text"]
+                            }
+                          }
+                        },
+                        "required": ["title"]
+                      },
+                      "Content": {
+                        "type": "object",
+                        "properties": {
+                          "rich_text": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "text": {
+                                  "type": "object",
+                                  "properties": {
+                                    "content": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": ["content"]
+                                }
+                              },
+                              "required": ["text"]
+                            }
+                          }
+                        },
+                        "required": ["rich_text"]
+                      }
+                    },
+                    "required": ["Title", "Content"]
+                  }
+                },
+                "required": ["parent", "properties"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Trang đã được tạo thành công"
+          }
+        }
+      }
+    }
+  }
+}
